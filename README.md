@@ -22,5 +22,5 @@ Linux上で動作するDockerfileを作っています（Windowsの.exeファイ
 
 ## 大まかな流れ
 1. Dockerベースイメージ「Ubuntu:20.04」を使う（必要なパッケージがわからなかったので）
-2. Dockerfileファイルを作成する
-  apt-getコマンドには
+2. Dockerfileファイルを作成する  
+  apt-getコマンドで tzdata でタイムゾーンを予め設定する（google-chrome）の対話式セットアップを処理するため
