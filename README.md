@@ -5,9 +5,9 @@
 - Docker Desktop
 
 ## 概要
-Python3を使ったスクレイピングをするDockerコンテナを構築します。
-Selenium をつかったheadlessなスクレイパーをいつでも使えるようにと記した私的メモになります。
-Linux上で動作するDockerfileを作っています（Windowsの.exeファイルは読み込みません）
+Python3を使ったスクレイピングをするDockerコンテナを構築します。  
+Selenium をつかったheadlessなスクレイパーをいつでも使えるようにと記した私的メモになります。  
+Linux上で動作するDockerfileを作っています（Windowsの.exeファイルは読み込みません）  
 
 本番環境では、このDockerfileを使って以下のことが出来るようにする
 - WEBスクレイピングでコンテンツを取得する
